@@ -1,9 +1,6 @@
 services:
   - type: web
-    name: insta-bot
-    runtime: python
-    pythonVersion: 3.11
-    buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
+    name: gsnigspy
+    env: docker
     plan: free
     autoDeploy: true
