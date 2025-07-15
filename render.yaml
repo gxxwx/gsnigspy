@@ -1,6 +1,7 @@
 services:
   - type: web
     name: gsnigspy
-    env: docker
-    plan: free
-    autoDeploy: true
+    env: python
+    pythonVersion: 3.11.9
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py

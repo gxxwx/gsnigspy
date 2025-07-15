@@ -1,3 +1,4 @@
 aiogram==2.25.1
-instaloader
-requests
+instaloader==4.14.1
+requests==2.32.4
+aiohttp==3.8.4
